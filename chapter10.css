@@ -10,6 +10,12 @@
   clear: both;
 }
 
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
 main {
   width: 960px;
   margin: 50px auto;
@@ -21,7 +27,7 @@ main {
   margin-right: 30px;
   padding: 10px;
   position: relative;
-  border: 1px solid gray ;
+  background-color: #EEEEEE;
 }
 
 .step-box:last-child {
@@ -50,7 +56,7 @@ main {
 }
 
 .step-num {
-  background-color: orange;
+  background-color: #FF9A4B;
   color: white;
   position: absolute;
   top: 0;
@@ -62,13 +68,19 @@ main {
   margin: 15px 0 5px;
 }
 
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
 /* レスポンシブ対応 */
 @media screen and (max-width:768px) {
 
   .header {
     width: 100%;
     height: 50px;
-    background-color: orange;
+    background-color: #FF9A4B;
   }
 
   main {
@@ -93,6 +105,6 @@ main {
   .footer {
     width: 100%;
     height: 50px;
-    background-color: grey;
+    background-color: #AAAAAA;
   }
 }
